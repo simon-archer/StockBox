@@ -41,11 +41,11 @@ The screen will animate during the `PRE_MARKET` and `AFTER_MARKET` states.
 
 This project fetches data from the following APIs:
 
-1. **Exchange Rate**: [Currency API](https://api.currencyapi.com) - The free tier allows for 300 requests per month.
+1. **Exchange Rate**: [Currency API](https://currencyapi.com) - The free tier allows for 300 requests per month.
 
 2. **Market Status**: [Polygon](https://api.polygon.io) - The free tier allows for 5 API calls every minute (not all endpoints).
 
-3. **Stock Price**: [Real Stonks API](https://realstonks.p.rapidapi.com/) - The free tier allows for 100,000 requests each month. An additional 1,000,000 requests can be purchased for $5 per month.
+3. **Stock Price**: [Real Stonks API]([https://realstonks.p.rapidapi.com/](https://rapidapi.com/amansharma2910/api/realstonks)) - The free tier allows for 100,000 requests each month. An additional 1,000,000 requests can be purchased for $5 per month.
 
 ## Libraries
 
