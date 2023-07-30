@@ -23,9 +23,21 @@ To run the code, follow these steps:
    * TFT_DC to D5
    * TFT_RST to D7
 2. Edit the Wi-Fi credentials in the `MyWiFiCredentials` struct in the code.
-3. Upload the code to your Particle Photon using the Particle IDE.
+3. Set up webhooks in your Particle console, following the instructions provided in the Webhooks section below.
+4. Upload the code to your Particle Photon using the Particle IDE.
 
 The program will attempt to connect to each of the provided Wi-Fi networks in the `MyWiFiCredentials` struct. Once a successful connection is established, it will start fetching market status, exchange rate, and stock price data and displaying it on the TFT screen.
+
+## Webhooks
+
+Webhooks are necessary for real-time updates from the APIs. You need to configure them on Particle's console:
+
+1. Log into the Particle Console.
+2. Navigate to the 'Integrations' -> 'New Integration' -> 'Webhook' section.
+3. Set up webhooks for your APIs (Currency API, Polygon, Real Stonks API). Make sure to configure the event name, URL, request type, device, and response template as required by the APIs.
+4. Save the webhook.
+
+With the webhooks set, your Particle device will receive real-time updates from these APIs.
 
 ## Screens
 
